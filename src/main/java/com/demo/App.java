@@ -1,9 +1,8 @@
 package com.demo;
 
+import cn.z.id.Id;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import cn.z.id.Id;
 
 @SpringBootApplication
 public class App {
