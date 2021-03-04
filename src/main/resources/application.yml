@@ -1,3 +1,14 @@
-spring:
-  profiles:
-    active: dev
+# test 配置
+id:
+  machine-id: 0
+  machine-bits: 8
+  sequence-bits: 14
+# none 不需要配置
+# part 配置
+#id:
+#  machine-id: 10
+# init 配置
+#id:
+#  machine-id: 0
+#  machine-bits: 8
+#  sequence-bits: 6
