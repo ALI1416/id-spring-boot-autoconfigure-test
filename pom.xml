@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>cn.404z</groupId>
@@ -11,21 +11,6 @@
   <description>High performance snowflake ID generator springboot autoconfigure test 高性能雪花ID生成器自动配置测试</description>
   <url>https://github.com/ALI1416/id-spring-boot-autoconfigure-test</url>
 
-  <dependencies>
-    <!-- 必须依赖 -->
-    <dependency>
-      <groupId>cn.404z</groupId>
-      <artifactId>id-spring-boot-autoconfigure</artifactId>
-      <version>2.0.1</version>
-    </dependency>
-    <!-- 额外依赖(运行未报错，不需要加) -->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-      <version>2.4.3</version>
-    </dependency>
-  </dependencies>
-
   <properties>
     <jdk.version>1.8</jdk.version>
     <maven.compiler.source>${jdk.version}</maven.compiler.source>
@@ -34,5 +19,20 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
+
+  <dependencies>
+    <!-- 必须依赖 -->
+    <dependency>
+      <groupId>cn.404z</groupId>
+      <artifactId>id-spring-boot-autoconfigure</artifactId>
+      <version>2.1.0</version>
+    </dependency>
+    <!-- 额外依赖(运行未报错，不需要加) -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+      <version>2.4.3</version>
+    </dependency>
+  </dependencies>
 
 </project>
